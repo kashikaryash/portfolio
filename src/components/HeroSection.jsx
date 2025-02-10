@@ -1,7 +1,14 @@
 import heroImageSrc from "../assets/hero-image.jpg"; // Use the uploaded image
 import DesignSection from "./DesignSection";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      };
   return (
     <section className="flex flex-col items-center justify-center px-10 py-16 bg-white">
       {/* Main Hero Section */}
@@ -16,9 +23,8 @@ function HeroSection() {
             This is a template Figma file, turned into code using Anima.
             Learn more at AnimaApp.com.
           </p>
-          <button className="mt-6 px-6 py-3 bg-gray-900 text-white font-medium text-lg rounded hover:bg-gray-700">
-            Contact
-          </button>
+          <Link onClick={() => scrollToSection("contact")} className="mt-6 px-6 py-1 bg-gray-900 text-white font-medium text-lg rounded hover:bg-gray-700">Contact</Link>
+
         </div>
 
         {/* Right Image Section */}
