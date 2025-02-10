@@ -2,12 +2,12 @@ import { FaStar, FaRegStar } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
 const testimonials = [
-    { id: 1, name: "John Doe", text: "This service is outstanding! It exceeded my expectations.", rating: 5 },
-    { id: 2, name: "Jane Smith", text: "Amazing experience, highly recommended!", rating: 4 },
-    { id: 3, name: "Robert Brown", text: "Great quality and excellent support.", rating: 5 },
-    { id: 4, name: "Emily White", text: "Very satisfied with the results!", rating: 4 },
-    { id: 5, name: "Chris Johnson", text: "Fast delivery and top-notch service!", rating: 5 },
-    { id: 6, name: "Sophia Miller", text: "Will definitely work with them again.", rating: 4 },
+    { id: 1, name: "Yash Kashikar", text: "This service is outstanding! It exceeded my expectations.", rating: 5 },
+    { id: 2, name: "Prajwal Vaychal", text: "Amazing experience, highly recommended!", rating: 4 },
+    { id: 3, name: "Bhavna Charate", text: "Great quality and excellent support.", rating: 5 },
+    { id: 4, name: "Vaishnavi Bhosale", text: "Very satisfied with the results!", rating: 4 },
+    { id: 5, name: "Vaishnavi Shigvan", text: "Fast delivery and top-notch service!", rating: 5 },
+    { id: 6, name: "Juhi Thakur", text: "Will definitely work with them again.", rating: 4 },
 ];
 
 const StarRating = ({ rating }) => {
