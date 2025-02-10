@@ -11,7 +11,6 @@ function HeroSection() {
       };
   return (
     <section className="flex flex-col items-center justify-center px-10 py-16 bg-white">
-      {/* Main Hero Section */}
       <div className="flex flex-col md:flex-row items-center max-w-6xl w-full">
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left">
@@ -30,7 +29,6 @@ function HeroSection() {
         {/* Right Image Section */}
         <div className="flex-1 flex justify-center relative mt-10 md:mt-0">
           <img src={heroImageSrc} alt="Hero" className="w-96 rounded-lg shadow-lg" />
-          {/* Shapes (Mockup of the image decorations) */}
           <div className="absolute top-8 right-4 w-12 h-12 bg-red-500 rounded-tr-lg"></div>
           <div className="absolute bottom-8 left-6 w-12 h-12 bg-green-500 rounded-bl-lg"></div>
         </div>
